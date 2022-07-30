@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-splittingBillsByK-splittingBillsByKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-splittingBillsByK-splittingBillsByKTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		3907BEDE58A3450EA099AB3A /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA5C92F479384404A9FA0522 /* AvenirNextLTPro-Bold.otf */; };
+		71E07CA7065C48FEA8655188 /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC5E218B535140249FD70B9A /* AvenirNextLTPro-It.otf */; };
+		577683B1B0EA44769F5C1C38 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52B8F37A61524722BFABE730 /* AvenirNextLTPro-Regular.otf */; };
+		65F39DFEBD1446CAAE5D233F /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D235135173D4DCD965BB46E /* Ubuntu-Bold.ttf */; };
+		A13FF2230DE34C9B89FCA277 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6FB97481E84154852E849C /* Ubuntu-Light.ttf */; };
+		68EBD459B2C34E26A04A3E37 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 058B70177A7541349508DF76 /* Ubuntu-Medium.ttf */; };
+		4DDA7632D29F4B2E9FA68EEF /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F83DEA344944F23B8331CFC /* Ubuntu-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = splittingBillsByK/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-splittingBillsByK-splittingBillsByKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splittingBillsByK-splittingBillsByKTests.release.xcconfig"; path = "Target Support Files/Pods-splittingBillsByK-splittingBillsByKTests/Pods-splittingBillsByK-splittingBillsByKTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FA5C92F479384404A9FA0522 /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Bold.otf"; path = "../src/assets/fonts/AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC5E218B535140249FD70B9A /* AvenirNextLTPro-It.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-It.otf"; path = "../src/assets/fonts/AvenirNextLTPro-It.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52B8F37A61524722BFABE730 /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Regular.otf"; path = "../src/assets/fonts/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D235135173D4DCD965BB46E /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Bold.ttf"; path = "../src/assets/fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D6FB97481E84154852E849C /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../src/assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		058B70177A7541349508DF76 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Medium.ttf"; path = "../src/assets/fonts/Ubuntu-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F83DEA344944F23B8331CFC /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Regular.ttf"; path = "../src/assets/fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +136,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				56AFF8EC59A44A979E5B0579 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +162,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		56AFF8EC59A44A979E5B0579 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				FA5C92F479384404A9FA0522 /* AvenirNextLTPro-Bold.otf */,
+				FC5E218B535140249FD70B9A /* AvenirNextLTPro-It.otf */,
+				52B8F37A61524722BFABE730 /* AvenirNextLTPro-Regular.otf */,
+				9D235135173D4DCD965BB46E /* Ubuntu-Bold.ttf */,
+				3D6FB97481E84154852E849C /* Ubuntu-Light.ttf */,
+				058B70177A7541349508DF76 /* Ubuntu-Medium.ttf */,
+				1F83DEA344944F23B8331CFC /* Ubuntu-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +274,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3907BEDE58A3450EA099AB3A /* AvenirNextLTPro-Bold.otf in Resources */,
+				71E07CA7065C48FEA8655188 /* AvenirNextLTPro-It.otf in Resources */,
+				577683B1B0EA44769F5C1C38 /* AvenirNextLTPro-Regular.otf in Resources */,
+				65F39DFEBD1446CAAE5D233F /* Ubuntu-Bold.ttf in Resources */,
+				A13FF2230DE34C9B89FCA277 /* Ubuntu-Light.ttf in Resources */,
+				68EBD459B2C34E26A04A3E37 /* Ubuntu-Medium.ttf in Resources */,
+				4DDA7632D29F4B2E9FA68EEF /* Ubuntu-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
