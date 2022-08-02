@@ -1,90 +1,94 @@
 import { StyleSheet } from "react-native";
-import { COLORS, FONTS, FONT_WEIGHT_MEDIUM } from "../../constants/vars";
+import { COLORS, FONTS, FONT_WEIGHT_BOLD } from "../../constants/vars";
 
+const LINEAR_COLORS_BTN = ['#4748A0', '#0C0D5B'];
+const LINEAR_COLORS_BG = ['#C5ECE4', '#92D7C9'];
 
 const styles = StyleSheet.create({
    container: {
       flex: 1,
-      flexDirection: 'row',
-      backgroundColor: 'white',
    },
-   bgWrapper: {
-      flex: 2,
-   },
-   bg: {
-      width: 220,
-      height: '100%',
-   },
-   introContainer: {
-      flex: 3,
-      marginHorizontal: 15,
-   },
-   timeDegreesWrapper: {
-      flexDirection: 'row',
-      marginBottom: 10,
-   },
-   clock: {
-      fontSize: 22,
-      fontWeight: '500',
-      color: COLORS.PRIMARY_TEXT1, 
-      fontFamily: FONTS.AvenirNextRegular,
-   },
-   degreeWrapper:{
+   imgWrapper: {
       flex: 1,
-      flexDirection: 'row',
-      justifyContent: 'flex-end',
-      alignItems: 'center',
-   },
-   textDegrees: {
-      fontSize: 15,
-      color: COLORS.PRIMARY_TEXT1,
-      fontWeight: FONT_WEIGHT_MEDIUM,
-      fontFamily: FONTS.AvenirNextRegular,
-   },
-   weatherIcon: {
-      width: 25,
-      height: 20,
-      marginRight: 10,
-   },
-   introWrapper: {
-      flex: 1,
-      marginTop: 15,
-   },
-   btnWrapper: {
-      flex: 1,
-      justifyContent: 'flex-end',
-      alignItems: 'center',
-   },
-   letGoBtn: {
-      flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
+   },
+   img: {
+      width: 400,
+      height: 285,
+   },
+   infoWrapper: {
+      flex: 1,
+      marginBottom: 40,
+   },
+   appNameWrapper: {
+      flex: 1,
+      marginHorizontal: 50,
+      alignItems: 'center',
+   },
+   appName: {
+      fontSize: 38,
+      fontFamily: FONTS.MulishExtraBold,
+      color: COLORS.PRIMARY_TEXT1,
+      fontWeight: FONT_WEIGHT_BOLD,
+      marginBottom: 15,
+   },
+   description: {
+      fontSize: 18,
+      fontFamily: FONTS.MulishLight,
+      color: COLORS.PRIMARY_TEXT1,
+      textAlign: 'center',
+      lineHeight: 24,
+   },
+   formWrapper: {
       width: '100%',
-      height: 50,
-      borderRadius: 10,
-      backgroundColor: COLORS.PRIMARY_COLOR_LIGHT,
+      alignItems: 'center' 
    },
-   textLetgo: {
+   input: {
+      width: '70%',
+      height: 55,
+      backgroundColor : "#EBEBEB",
+      marginBottom: 25,
+      padding: 15,
+      paddingLeft: 25,
+
+      fontFamily: FONTS.MulishMedium,
       fontSize: 16,
-      fontFamily: FONTS.UbuntuBold,
-      lineHeight: 24,
       color: COLORS.PRIMARY_TEXT1,
-      marginRight: 10,
+
+      borderRadius: 30,
+      borderColor: COLORS.PRIMARY_TEXT1,
+
+      shadowColor: COLORS.PRIMARY_TEXT1,
+      shadowOpacity: 0.4,
+      shadowOffset: {width: -2, height: 10},
+      shadowRadius: 25,
    },
-   arrowImg: {
-      width: 18,
-      height: 10,
+   btn: {
+      width: '60%',
+      backgroundColor: 'white',
+      shadowColor: COLORS.PRIMARY_TEXT1,
+      borderRadius: 30,
+
+      shadowOpacity: 0.8,
+      shadowOffset: { width: 1, height: 2 },
+      shadowRadius: 10,
+      marginTop: 15,
    },
-   createBtn: {
-      backgroundColor: 'transparent',
-      marginVertical: 30,
+   textBtn: {
+      fontSize: 20,
+      fontFamily: FONTS.MulishBold,
+      fontWeight: FONT_WEIGHT_BOLD,
+      textAlign: 'center',
+      color: '#C5ECE4'
    },
-   textCreateAccount: {
-      fontSize: 16, 
-      fontFamily: FONTS.AvenirNextRegular,
-      lineHeight: 24,
-      color: COLORS.PRIMARY_TEXT1,
+   linear: {
+      width: '100%',
+      height: 60,
+      padding: 15,
+      borderRadius: 30,
    }
 });
 
 export default styles;
+export {LINEAR_COLORS_BTN, LINEAR_COLORS_BG};

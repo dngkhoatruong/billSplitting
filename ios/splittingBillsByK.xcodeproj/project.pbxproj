@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* splittingBillsByKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* splittingBillsByKTests.m */; };
+		07C679F2D0F34D929213348A /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F3D5CA649F34323836B1C92 /* Mulish-Black.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-splittingBillsByK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-splittingBillsByK.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		29E841684E784083A1E0C88E /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52CEDB472322467ABE8E9A0B /* Mulish-Medium.ttf */; };
+		6BCDC4C91FFB468089C2479D /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73F2FACE77454429822B4534 /* Mulish-ExtraLight.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-splittingBillsByK-splittingBillsByKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-splittingBillsByK-splittingBillsByKTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		3907BEDE58A3450EA099AB3A /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA5C92F479384404A9FA0522 /* AvenirNextLTPro-Bold.otf */; };
-		71E07CA7065C48FEA8655188 /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC5E218B535140249FD70B9A /* AvenirNextLTPro-It.otf */; };
-		577683B1B0EA44769F5C1C38 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52B8F37A61524722BFABE730 /* AvenirNextLTPro-Regular.otf */; };
-		65F39DFEBD1446CAAE5D233F /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D235135173D4DCD965BB46E /* Ubuntu-Bold.ttf */; };
-		A13FF2230DE34C9B89FCA277 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6FB97481E84154852E849C /* Ubuntu-Light.ttf */; };
-		68EBD459B2C34E26A04A3E37 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 058B70177A7541349508DF76 /* Ubuntu-Medium.ttf */; };
-		4DDA7632D29F4B2E9FA68EEF /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F83DEA344944F23B8331CFC /* Ubuntu-Regular.ttf */; };
+		C951D9C4B7274CC7A873B619 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28E699FA24B94B69BE5D600D /* Mulish-ExtraBold.ttf */; };
+		D9CF999B82FB46A39A54567B /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C089838C7D2431899429417 /* Mulish-Light.ttf */; };
+		F12ED7EFB5394A2EBF5FB321 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79729642E705400ABC73295D /* Mulish-SemiBold.ttf */; };
+		F8465908EA974B7485A494B1 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51CEC509C7594237B0637EF9 /* Mulish-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +44,20 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = splittingBillsByK/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = splittingBillsByK/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-splittingBillsByK-splittingBillsByKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-splittingBillsByK-splittingBillsByKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C089838C7D2431899429417 /* Mulish-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Light.ttf"; path = "../src/assets/fonts/Mulish-Light.ttf"; sourceTree = "<group>"; };
+		1F3D5CA649F34323836B1C92 /* Mulish-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Black.ttf"; path = "../src/assets/fonts/Mulish-Black.ttf"; sourceTree = "<group>"; };
+		28E699FA24B94B69BE5D600D /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-ExtraBold.ttf"; path = "../src/assets/fonts/Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-splittingBillsByK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splittingBillsByK.debug.xcconfig"; path = "Target Support Files/Pods-splittingBillsByK/Pods-splittingBillsByK.debug.xcconfig"; sourceTree = "<group>"; };
+		51CEC509C7594237B0637EF9 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Bold.ttf"; path = "../src/assets/fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		52CEDB472322467ABE8E9A0B /* Mulish-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Medium.ttf"; path = "../src/assets/fonts/Mulish-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-splittingBillsByK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splittingBillsByK.release.xcconfig"; path = "Target Support Files/Pods-splittingBillsByK/Pods-splittingBillsByK.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-splittingBillsByK-splittingBillsByKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splittingBillsByK-splittingBillsByKTests.debug.xcconfig"; path = "Target Support Files/Pods-splittingBillsByK-splittingBillsByKTests/Pods-splittingBillsByK-splittingBillsByKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-splittingBillsByK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-splittingBillsByK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F2FACE77454429822B4534 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-ExtraLight.ttf"; path = "../src/assets/fonts/Mulish-ExtraLight.ttf"; sourceTree = "<group>"; };
+		79729642E705400ABC73295D /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-SemiBold.ttf"; path = "../src/assets/fonts/Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = splittingBillsByK/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-splittingBillsByK-splittingBillsByKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splittingBillsByK-splittingBillsByKTests.release.xcconfig"; path = "Target Support Files/Pods-splittingBillsByK-splittingBillsByKTests/Pods-splittingBillsByK-splittingBillsByKTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FA5C92F479384404A9FA0522 /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Bold.otf"; path = "../src/assets/fonts/AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FC5E218B535140249FD70B9A /* AvenirNextLTPro-It.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-It.otf"; path = "../src/assets/fonts/AvenirNextLTPro-It.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		52B8F37A61524722BFABE730 /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Regular.otf"; path = "../src/assets/fonts/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9D235135173D4DCD965BB46E /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Bold.ttf"; path = "../src/assets/fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3D6FB97481E84154852E849C /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../src/assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		058B70177A7541349508DF76 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Medium.ttf"; path = "../src/assets/fonts/Ubuntu-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1F83DEA344944F23B8331CFC /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Regular.ttf"; path = "../src/assets/fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +120,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		56AFF8EC59A44A979E5B0579 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F3D5CA649F34323836B1C92 /* Mulish-Black.ttf */,
+				51CEC509C7594237B0637EF9 /* Mulish-Bold.ttf */,
+				28E699FA24B94B69BE5D600D /* Mulish-ExtraBold.ttf */,
+				73F2FACE77454429822B4534 /* Mulish-ExtraLight.ttf */,
+				1C089838C7D2431899429417 /* Mulish-Light.ttf */,
+				52CEDB472322467ABE8E9A0B /* Mulish-Medium.ttf */,
+				79729642E705400ABC73295D /* Mulish-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,21 +177,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		56AFF8EC59A44A979E5B0579 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				FA5C92F479384404A9FA0522 /* AvenirNextLTPro-Bold.otf */,
-				FC5E218B535140249FD70B9A /* AvenirNextLTPro-It.otf */,
-				52B8F37A61524722BFABE730 /* AvenirNextLTPro-Regular.otf */,
-				9D235135173D4DCD965BB46E /* Ubuntu-Bold.ttf */,
-				3D6FB97481E84154852E849C /* Ubuntu-Light.ttf */,
-				058B70177A7541349508DF76 /* Ubuntu-Medium.ttf */,
-				1F83DEA344944F23B8331CFC /* Ubuntu-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -274,13 +274,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				3907BEDE58A3450EA099AB3A /* AvenirNextLTPro-Bold.otf in Resources */,
-				71E07CA7065C48FEA8655188 /* AvenirNextLTPro-It.otf in Resources */,
-				577683B1B0EA44769F5C1C38 /* AvenirNextLTPro-Regular.otf in Resources */,
-				65F39DFEBD1446CAAE5D233F /* Ubuntu-Bold.ttf in Resources */,
-				A13FF2230DE34C9B89FCA277 /* Ubuntu-Light.ttf in Resources */,
-				68EBD459B2C34E26A04A3E37 /* Ubuntu-Medium.ttf in Resources */,
-				4DDA7632D29F4B2E9FA68EEF /* Ubuntu-Regular.ttf in Resources */,
+				07C679F2D0F34D929213348A /* Mulish-Black.ttf in Resources */,
+				F8465908EA974B7485A494B1 /* Mulish-Bold.ttf in Resources */,
+				C951D9C4B7274CC7A873B619 /* Mulish-ExtraBold.ttf in Resources */,
+				6BCDC4C91FFB468089C2479D /* Mulish-ExtraLight.ttf in Resources */,
+				D9CF999B82FB46A39A54567B /* Mulish-Light.ttf in Resources */,
+				29E841684E784083A1E0C88E /* Mulish-Medium.ttf in Resources */,
+				F12ED7EFB5394A2EBF5FB321 /* Mulish-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

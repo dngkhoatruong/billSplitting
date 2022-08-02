@@ -53,13 +53,13 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>AvenirNextLTPro-Bold.otf</string>
-		<string>AvenirNextLTPro-It.otf</string>
-		<string>AvenirNextLTPro-Regular.otf</string>
-		<string>Ubuntu-Bold.ttf</string>
-		<string>Ubuntu-Light.ttf</string>
-		<string>Ubuntu-Medium.ttf</string>
-		<string>Ubuntu-Regular.ttf</string>
+		<string>Mulish-Black.ttf</string>
+		<string>Mulish-Bold.ttf</string>
+		<string>Mulish-ExtraBold.ttf</string>
+		<string>Mulish-ExtraLight.ttf</string>
+		<string>Mulish-Light.ttf</string>
+		<string>Mulish-Medium.ttf</string>
+		<string>Mulish-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

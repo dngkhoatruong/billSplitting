@@ -1,10 +1,10 @@
 
 // colors
 const COLORS = {
-   PRIMARY_COLOR_LIGHT: '#FFAC30',
-   PRIMARY_COLOR_DARK: '#3A4276',
+   PRIMARY_COLOR_LIGHT: '#C5ECE4',
+   PRIMARY_COLOR_DARK: '#0C0D5B',
 
-   PRIMARY_TEXT1: '#1B1D28',
+   PRIMARY_TEXT1: '#0C0D5B',
    PRIMARY_TEXT2: '#3A4276',
    SUB_TEXT: '#7B7F9E',
 }
@@ -16,12 +16,14 @@ const FONT_WEIGHT_BOLD = "800";
 
 // FontFamily
 const FONTS = {
-   AvenirNextBold: 'AvenirNextLTPro-Bold',
-   AvenirNextRegular: 'AvenirNextLTPro-Regular',
-   UbuntuBold: 'Ubuntu-Bold',
-   UbuntuLight: 'Ubuntu-Light',
-   UbuntuMedium: 'Ubuntu-Medium',
-   UbuntuRegular: 'Ubuntu-Regular',
+   MulishBlack: 'Mulish-Black',
+   MulishBold: 'Mulish-Bold',
+   MulishExtraBold: 'Mulish-ExtraBold',
+   MulishExtraLight: 'Mulish-ExtraLight',
+   MulishLight: 'Mulish-Light',
+   MulishMedium: 'Mulish-Medium',
+   MulishRegular: 'Mulish-Regular',
+   MulishSemiBold: 'Mulish-SemiBold',
 }
 
 export { COLORS, FONT_WEIGHT_REGULAR, FONT_WEIGHT_MEDIUM, FONT_WEIGHT_BOLD, FONTS };
