@@ -1,9 +1,6 @@
 import { StyleSheet } from "react-native";
 import { COLORS, FONTS, FONT_WEIGHT_BOLD } from "../../constants/vars";
 
-const LINEAR_COLORS_BTN = ['#4748A0', '#0C0D5B'];
-const LINEAR_COLORS_BG = ['#C5ECE4', '#92D7C9'];
-
 const styles = StyleSheet.create({
    container: {
       flex: 1,
@@ -91,4 +88,3 @@ const styles = StyleSheet.create({
 });
 
 export default styles;
-export {LINEAR_COLORS_BTN, LINEAR_COLORS_BG};

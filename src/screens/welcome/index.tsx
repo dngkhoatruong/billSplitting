@@ -3,8 +3,9 @@ import React from 'react';
 import { Image, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import GLOBAL_STYLES from '../../constants/globalStyles';
+import { LINEAR_COLORS_BG, LINEAR_COLORS_BTN } from '../../constants/vars';
 import { useStore } from '../../store';
-import styles, { LINEAR_COLORS_BG, LINEAR_COLORS_BTN } from './styles';
+import styles from './styles';
 
 const Welcome = ({ navigation }) => {
    const [state, dispatch] = useStore();

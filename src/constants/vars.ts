@@ -24,6 +24,14 @@ const FONTS = {
    MulishMedium: 'Mulish-Medium',
    MulishRegular: 'Mulish-Regular',
    MulishSemiBold: 'Mulish-SemiBold',
-}
+};
 
-export { COLORS, FONT_WEIGHT_REGULAR, FONT_WEIGHT_MEDIUM, FONT_WEIGHT_BOLD, FONTS };
+const LINEAR_COLORS_BTN = ['#4748A0', '#0C0D5B'];
+const LINEAR_COLORS_BG = ['#C5ECE4', '#92D7C9'];
+const LINEAR_COLORS_CARD = [ '#FDB2AD', '#FCE5CD'];
+
+export { COLORS, FONT_WEIGHT_REGULAR, FONT_WEIGHT_MEDIUM, FONT_WEIGHT_BOLD, FONTS,
+   LINEAR_COLORS_BTN,
+   LINEAR_COLORS_BG,
+   LINEAR_COLORS_CARD,
+};
