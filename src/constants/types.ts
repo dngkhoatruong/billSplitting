@@ -1,0 +1,14 @@
+
+const EXPENSE_TYPE = {
+    GRAB: 'GRAB',
+    PLANE: 'PLANE',
+    EATING: 'EATING',
+    FUEL: 'FUEL',
+    MOTOBIKE: 'MOTOBIKE',
+    MARKET: 'MARKET',
+    SHOPPING: 'SHOPPING',
+    DRINKS: 'DRINKS',
+ };
+ 
+
+ export {EXPENSE_TYPE};

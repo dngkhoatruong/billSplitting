@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
    },
    img: {
       width: 400,
-      height: 285,
+      height: 450,
    },
    infoWrapper: {
       flex: 1,
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
       fontFamily: FONTS.MulishBold,
       fontWeight: FONT_WEIGHT_BOLD,
       textAlign: 'center',
-      color: '#C5ECE4'
+      color: '#FCE5CD'
    },
    linear: {
       width: '100%',

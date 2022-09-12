@@ -5,12 +5,10 @@ const styles = StyleSheet.create({
    container: {
       flex: 1,
       justifyContent: 'center',
-      // backgroundColor: COLORS.PRIMARY_COLOR_LIGHT,
    },
    header: {
       flexDirection: 'row',
       justifyContent: 'space-around',
-      height: '15%',
    },
    headerIcon: {
       width: 35,
@@ -34,7 +32,7 @@ const styles = StyleSheet.create({
 
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: 'black',
+      backgroundColor: 'red',
    },
    badgeText: {
       color: 'white',
@@ -47,8 +45,8 @@ const styles = StyleSheet.create({
       alignItems: 'center',
    },
    avatar: {
-      width: 65,
-      height: 65,
+      width: 68,
+      height: 68,
    },
    username: {
       fontFamily: FONTS.MulishExtraBold,
@@ -63,8 +61,7 @@ const styles = StyleSheet.create({
    },
 
    cardWrapper: {
-      flex: 1,
-      // backgroundColor: COLORS.PRIMARY_COLOR_LIGHT,
+      height: 320,
       alignItems: 'center',
       justifyContent: 'center',
    },
@@ -128,7 +125,36 @@ const styles = StyleSheet.create({
       width: 22,
       height: 22,
       tintColor: 'white',
-   }
+   },
+   nearbyContainer: {
+      justifyContent: 'flex-start',
+      marginLeft: 25
+   },
+   nearbyAvatar: {
+      width: 43,
+      height: 43,
+   },
+   nearbyWrapper: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginRight: 15,
+      marginTop: 10,
+   },
+   nearbyAvatarWrapper: {
+      width: 75,
+      height: 75,
+      borderRadius: 40,
+      marginVertical: 5,
+      backgroundColor: '#E2E2E2',
+      justifyContent: 'center',
+      alignItems: 'center',
+   },
+   nearbyNameText: {
+      fontFamily: FONTS.MulishExtraBold,
+      fontSize: 16,
+      fontWeight: FONT_WEIGHT_BOLD,
+      marginTop: 3,
+   },
 });
 
 export default styles;
